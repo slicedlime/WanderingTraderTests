@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "wanderingtradertests",
+  "version": "${version}",
+
+  "name": "Wandering Trader Tests",
+  "description": "This mod adds a command to test wandering trader spawning",
+  "authors": [
+    "slicedlime"
+  ],
+  "contact": {
+    "homepage": "https://slicedlime.tv/",
+    "sources": "https://github.com/slicedlime/WanderingTraderTests"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tv.slicedlime.tradertest.WanderingTraderTestMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
